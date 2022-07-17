@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="Pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Satelites.css">
+    <link rel="icon" href="../Assets/icos/21045752fabdaf9b549a8a308ed65318.png">
+    <title>Explorando o Espaço</title>
+</head>
+
+<body class="Corpo">
+    <header>
+        <div class="Cabe">
+            <div class="Lg">
+                <img class="logo" src="../Assets/icos/Novo_cardápio-removebg-preview.png">
+
+
+                <ol class="ops">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Pages/Planetas.html">Planetas</a></li>
+                    <li><a class="sa" href="../Pages/Satelites.html">Satélites Naturais</a></li>
+                    <li><a href="../Pages/Estrelas.html">Estrelas</a></li>
+                    <li><a href="../Pages/Galaxia.html">Galáxias</a></li>
+                    <li><a href="../Pages/Nebulosas.html">Nebulosas</a></li>
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <div class="Cont">
+        <div id="Move" class="mover photo">
+            <img id="satelite" class="img" src="../Assets/Photo/Satelites/Lua.png">
+        </div>
+
+        <div class="Info">
+            <ol class="Planets">
+                <li>
+                    <a id="Lua" class="lu"
+                        onclick="MudarImagem('Lua','satelite', '../Assets/Photo/Satelites/Lua.png')">Lua</a>
+                </li>
+                <li>
+                    <a id="Io" onclick="MudarImagem('Io','satelite', '../Assets/Photo/Satelites/io.png' )">Io</a>
+                </li>
+                <li>
+                    <a id="Gani"
+                        onclick="MudarImagem('Gani','satelite', '../Assets/Photo/Satelites/Gani.png')">Ganímedes</a>
+                </li>
+                <li>
+                    <a id="Europa"
+                        onclick="MudarImagem('Europa','satelite', '../Assets/Photo/Satelites/Europa.png' )">Europa</a>
+                </li>
+                <li>
+                    <a id="Calisto" onclick="MudarImagem('Calisto','satelite', '../Assets/Photo/Satelites/Calisto.png'
+                        )">Calisto</a>
+                </li>
+            </ol>
+
+            <h1 id="SubT1" class="subtitulo1">Lua</h1>
+            <p id="SubT2" class="subtitulo2">
+
+            </p>
+        </div>
+    </div>
+
+
+    <script src="../Script/ScriptSatelite.js"></script>
+</body>
+
+
+</html>

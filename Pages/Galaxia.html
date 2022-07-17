@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="Pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Galaxia.css">
+    <link rel="icon" href="../Assets/icos/21045752fabdaf9b549a8a308ed65318.png">
+    <title>Explorando o Espaço</title>
+</head>
+
+<body class="Corpo">
+    <header>
+        <div class="Cabe">
+            <div class="Lg">
+                <img class="logo" src="../Assets/icos/Novo_cardápio-removebg-preview.png">
+
+
+                <ol class="ops">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Planetas.html">Planetas</a></li>
+                    <li><a href="../Pages/Satelites.html">Satélites Naturais</a></li>
+                    <li><a href="../Pages/Estrelas.html">Estrelas</a></li>
+                    <li><a class="a" href="../Pages/Galaxia.html">Galáxias</a></li>
+                    <li><a href="../Pages/Nebulosas.html">Nebulosas</a></li>
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <div class="Cont">
+        <div class="mover photo">
+            <img id="Galaxia" class="img" src="../Assets/Photo/Galaxy/Andromeda.jpg">
+        </div>
+
+        <div class="Info">
+            <ol>
+                <li>
+                    <a id="Andromeda" class="Andromeda" onclick="MudarImagem('Andromeda','Galaxia',
+                        '../Assets/Photo/Galaxy/Andromeda.jpg')">Galáxia de Andrômeda</a>
+                </li>
+                <li>
+                    <a id="OlhoNegro" onclick="MudarImagem('OlhoNegro','Galaxia',
+                        '../Assets/Photo/Galaxy/Olho.jpg')">Galáxia do Cata-Vento</a>
+                </li>
+                <li>
+                    <a id="Bode" onclick="MudarImagem('Bode','Galaxia',
+                        '../Assets/Photo/Galaxy/bode.jpg')">Galáxia de Bode</a>
+                </li>
+
+            </ol>
+
+            <h1 id="SubT1" class="subtitulo1">Galáxia de Andrômeda</h1>
+
+            <p id="SubT2" class="subtitulo2">
+            </p>
+        </div>
+    </div>
+
+
+    <script src="../Script/ScriptGalaxia.js"></script>
+</body>
+
+
+</html>

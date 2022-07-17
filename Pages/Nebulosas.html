@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="Pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Nebulosas.css">
+    <link rel="icon" href="../Assets/icos/21045752fabdaf9b549a8a308ed65318.png">
+    <title>Explorando o Espaço</title>
+</head>
+
+<body class="Corpo">
+    <header>
+        <div class="Cabe">
+            <div class="Lg">
+                <img class="logo" src="../Assets/icos/Novo_cardápio-removebg-preview.png">
+
+
+                <ol class="ops">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Pages/Planetas.html">Planetas</a></li>
+                    <li><a href="../Pages/Satelites.html">Satélites Naturais</a></li>
+                    <li><a href="../Pages/Estrelas.html">Estrelas</a></li>
+                    <li><a href="../Pages/Galaxia.html">Galáxias</a></li>
+                    <li><a class="Nb" href="../Pages/Nebulosas.html">Nebulosas</a></li>
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <div class="Cont">
+        <div id="Move" class="mover photo">
+            <img id="Nbs" class="img" src="../Assets/Photo/Nebulosas/Orion.jpg">
+        </div>
+
+        <div class="Info">
+            <ol class="Planets">
+                <li>
+                    <a id="Orion" class="Orion"
+                        onclick="MudarImagem('Orion','Nbs', '../Assets/Photo/Nebulosas/Orion.jpg')">Nebulosa de
+                        Órion</a>
+                </li>
+                <li>
+                    <a id="Gun" onclick="MudarImagem('Gun','Nbs', '../Assets/Photo/Nebulosas/gun.jpg')">Nebulosa de
+                        Gum</a>
+                </li>
+                <li>
+                    <a id="Omg" onclick="MudarImagem('Omg','Nbs', '../Assets/Photo/Nebulosas/omg.jpg')">Nebulosa
+                        Ômega</a>
+                </li>
+            </ol>
+
+            <h1 id="SubT1" class="subtitulo1">Nebulosa de Órion</h1>
+
+            <p id="SubT2" class="subtitulo2">
+
+            </p>
+        </div>
+    </div>
+
+
+    <script src="../Script/ScriptNebulosas.js"></script>
+</body>
+
+
+</html>

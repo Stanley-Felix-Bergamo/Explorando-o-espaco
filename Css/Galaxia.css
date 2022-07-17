@@ -1,0 +1,144 @@
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.Corpo {
+    position: relative;
+    background: url(../Assets/Photo/galaxy-1639853574978-5407.jpg) center/cover no-repeat fixed;
+}
+
+.Cabe {
+    background-color: black;
+    border-radius: 10px;
+    padding: 1%;
+    width: 62%;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+
+.ops {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+}
+
+li {
+    margin-left: 20px;
+    float: left;
+}
+
+.Lg {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.a {
+    box-shadow: 0px 2px red;
+}
+
+a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 25px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(250, 0, 0);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+
+
+
+.Cont {
+    position: absolute;
+    height: 600px;
+    width: 100%;
+
+}
+
+.Andromeda {
+    box-shadow: 0px 2px red;
+}
+
+.photo {
+    top: 10px;
+    height: 180px;
+    width: 500px;
+    padding: 0;
+    margin: 0;
+}
+
+.img {
+    position: relative;
+    top: 30px;
+    width: 500px;
+    height: 500px;
+    left: 80px;
+    border-radius: 500px;
+}
+
+.Info {
+    list-style: none;
+    position: relative;
+    left: 52%;
+    top: -28%;
+    height: 500px;
+    width: 730px;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 15px;
+
+}
+
+h3 {
+    color: white;
+    cursor: pointer;
+}
+
+ol {
+    list-style: none;
+}
+
+.subtitulo1 {
+    position: relative;
+    color: white;
+    top: 30px;
+    left: 70px;
+    font-size: 42px;
+}
+
+.subtitulo2 {
+    position: relative;
+    color: white;
+    top: 25px;
+    left: 70px;
+    text-align: left;
+}

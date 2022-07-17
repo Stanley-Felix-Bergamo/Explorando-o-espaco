@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="Pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Planetas.css">
+    <link rel="icon" href="../Assets/icos/21045752fabdaf9b549a8a308ed65318.png">
+    <title>Explorando o Espaço</title>
+</head>
+
+<body class="Corpo">
+    <header>
+        <div class="Cabe">
+            <div class="Lg">
+                <img class="logo" src="../Assets/icos/Novo_cardápio-removebg-preview.png">
+
+
+                <ol class="ops">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a class="planetas" href="../Pages/Planetas.html">Planetas</a></li>
+                    <li><a href="../Pages/Satelites.html">Satélites Naturais</a></li>
+                    <li><a href="../Pages/Estrelas.html">Estrelas</a></li>
+                    <li><a href="../Pages/Galaxia.html">Galáxias</a></li>
+                    <li><a href="../Pages/Nebulosas.html">Nebulosas</a></li>
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <div class="Cont">
+        <div id="Move" class="mover photo">
+            <img id="planeta" class="img" src="../Assets/Photo/Planetas/Terra.png">
+        </div>
+
+        <div class="Info">
+            <ol class="Planets">
+                <li>
+                    <a id="Terra" class="terra"
+                        onclick="MudarImagem('Terra','planeta', '../Assets/Photo/Planetas/Terra.png')">Terra</a>
+                </li>
+                <li>
+                    <a id="Marte"
+                        onclick="MudarImagem('Marte','planeta', '../Assets/Photo/Planetas/Marte.png' )">Marte</a>
+                </li>
+                <li>
+                    <a id="Jupiter"
+                        onclick="MudarImagem('Jupiter','planeta', '../Assets/Photo/Planetas/Jupiter.png' )">Júpiter</a>
+                </li>
+                <li>
+                    <a id="Saturno"
+                        onclick="MudarImagem('Saturno','planeta', '../Assets/Photo/Planetas/Saturno.png' )">Saturno</a>
+                </li>
+                <li>
+                    <a id="Netuno"
+                        onclick="MudarImagem('Netuno','planeta', '../Assets/Photo/Planetas/Neptune.png' )">Netuno</a>
+                </li>
+                <li>
+                    <a id="Urano"
+                        onclick="MudarImagem('Urano','planeta', '../Assets/Photo/Planetas/Urano.png' )">Urano</a>
+                </li>
+                <li>
+                    <a id="Venus"
+                        onclick="MudarImagem('Venus','planeta', '../Assets/Photo/Planetas/Venus.png' )">Vénus</a>
+                </li>
+            </ol>
+
+            <h1 id="SubT1" class="subtitulo1">Planeta Terra</h1>
+
+            <p id="SubT2" class="subtitulo2"></p>
+        </div>
+    </div>
+
+
+    <script src="../Script/Script.js"></script>
+</body>
+
+
+</html>

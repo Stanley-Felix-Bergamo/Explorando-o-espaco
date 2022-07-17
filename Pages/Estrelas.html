@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="Pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Estrelas.css">
+    <link rel="icon" href="../Assets/icos/21045752fabdaf9b549a8a308ed65318.png">
+    <title>Explorando o Espaço</title>
+</head>
+
+<body class="Corpo">
+    <header>
+        <div class="Cabe">
+            <div class="Lg">
+                <img class="logo" src="../Assets/icos/Novo_cardápio-removebg-preview.png">
+                <ol class="ops">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Planetas.html">Planetas</a></li>
+                    <li><a href="../Pages/Satelites.html">Satélites Naturais</a></li>
+                    <li><a class="star" href="../Pages/Estrelas.html">Estrelas</a></li>
+                    <li><a href="../Pages/Galaxia.html">Galáxias</a></li>
+                    <li><a href="../Pages/Nebulosas.html">Nebulosas</a></li>
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <div class="Cont">
+        <div id="Move" class="mover photo">
+            <img id="planeta" class="img" src="../Assets/Photo/Estrelas/Sol.png">
+        </div>
+
+        <div class="Info">
+            <ol class="Planets">
+                <li>
+                    <a id="Sol" class="Sol"
+                        onclick="MudarImagem('Sol','planeta', '../Assets/Photo/Estrelas/Sol.png')">Sol</a>
+                </li>
+                <li>
+                    <a id="Sirius"
+                        onclick="MudarImagem('Sirius','planeta', '../Assets/Photo/Estrelas/Si.png')">Sirius</a>
+                </li>
+                <li>
+                    <a id="Delta"
+                        onclick="MudarImagem('Delta','planeta', '../Assets/Photo/Estrelas/Delta Canis Majoris.png')">Delta
+                        Canis
+                        Majoris</a>
+                </li>
+
+                <li>
+                    <a id="branca"
+                        onclick="MudarImagem('branca','planeta', '../Assets/Photo/Estrelas/Anã branca.png')">Anã
+                        branca</a>
+                </li>
+
+                <li>
+                    <a id="Verm"
+                        onclick="MudarImagem('Verm','planeta', '../Assets/Photo/Estrelas/Anã vermelha.png')">Anã
+                        vermelha
+                    </a>
+                </li>
+            </ol>
+
+            <h1 id="SubT1" class="subtitulo1">Sol</h1>
+
+            <p id="SubT2" class="subtitulo2">
+            </p>
+        </div>
+    </div>
+
+
+    <script src="../Script/ScriptEstrelas.js"></script>
+</body>
+
+
+</html>
